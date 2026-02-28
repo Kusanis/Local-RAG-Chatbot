@@ -17,7 +17,7 @@ A local Retrieval-Augmented Generation (RAG) chatbot powered by Ollama and Gradi
 3. **Required Ollama models** pulled:
    ```bash
    ollama pull qwen2.5:1.5b
-   ollama pull all-minilm:l12-v2
+   ollama pull nomic-embed-text
    ```
 
 ## Installation
@@ -78,7 +78,7 @@ Edit `config.py` to customize:
 ## Default Configuration
 
 - **LLM**: qwen2.5:1.5b
-- **Embedding**: all-minilm:l12-v2
+- **Embedding**: nomic-embed-text
 - **Chunk Size**: 100
 - **Retriever K**: 3
 
